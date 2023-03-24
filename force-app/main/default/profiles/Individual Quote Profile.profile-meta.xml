@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <custom>true</custom>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Test__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Crisis__c.Crisis_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Crisis__c.Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Crisis__c.End_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Crisis__c.Start_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Crisis__c-Crisis Layout</layout>
+    </layoutAssignments>
+    <tabVisibilities>
+        <tab>Crisis__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <userLicense>Guest</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableNotifications</name>
+    </userPermissions>
+</Profile>
